@@ -11,6 +11,11 @@
   left: 45px;
 }
 
+.paragraphText {
+  position: relative !important;
+  
+}
+
 @media screen and (min-width: 1130px) and (max-width: 400px) {
     .sideNav { display: none; }
   }

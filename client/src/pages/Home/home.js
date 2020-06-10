@@ -11,8 +11,8 @@ class Home extends React.Component {
                 <h1 className="myNameText">Tymothy Sellers</h1>
             </div>
             <div>
-                <img className="myFace" src={picOfMe} alt="A Picture of Tymothy Sellers" />
-                <p>
+                <img className="myFace" src={picOfMe} alt="Tymothy Sellers" />
+                <p className="paragraphText">
                 Experienced Photographer and Web Developer with a demonstrated history of working in the business supplies and equipment industry. Skilled in Operations Management, Management, Project Finance, Direct Sales, and Entrepreneurship. Strong operations professional graduated from University of Northern Colorado. 
                 </p>
             </div>
