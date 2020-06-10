@@ -5,7 +5,7 @@ import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
 
 // page routes
-import Home from "./pages/Home/Home.js";
+import Home from "./pages/Home/home.js";
 import Contact from "./pages/Contact/Contact.js";
 import Navbar from "./components/Navbar/Navbar.js";
 
