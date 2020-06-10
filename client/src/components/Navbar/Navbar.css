@@ -1,0 +1,90 @@
+.nav-wrapper {
+    background-color: rgb(77, 77, 77);
+    /* text-align: left; */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 32px;
+    box-shadow:0px 10px 10px rgb(168, 168, 168);
+    
+}
+
+
+nav {
+    height: 130px !important;
+}
+
+nav.brand-logo {
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.myFace {
+    position: relative !important;
+    top: -120px;
+    left: 105px;
+    height:140px;
+}
+
+.carousel .carousel-item {
+width:300px !important;}
+
+#slide-out {
+    background-color: rgba(77, 77, 77) !important;
+    height: 210px;
+    width: 175px;
+    box-shadow: 2px 2px 4px black;
+    position: absolute;
+}
+
+ #linkTags {
+     font-size: 25px;
+     background-color: rgb(77, 77, 77);
+     color: whitesmoke;
+ }
+
+ #linkTags:hover {
+     font-size: 27px;
+     color: rgb(170, 170, 170);
+ }
+
+ #sideLinks {
+     color: white;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 20px;
+
+ }
+
+ #sideLinks:hover {
+    color: rgb(0, 251, 218);
+    font-size: 20px;
+
+ }
+
+#loginBtn {
+    height: 40px;
+    background-color: rgb(16, 219, 219);
+    color: black;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+#loginBtn1 {
+    height: 40px;
+    background-color: rgb(16, 219, 219);
+    color: black;
+    font-size: 18px;
+    padding-top: 4px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+#loginBtn:hover {
+    background-color: rgb(0, 255, 213);
+    box-shadow: 0px 0px 4px 4px white;
+}
+
+#loginBtn1:hover {
+    background-color: rgb(0, 255, 213);
+    box-shadow: 0px 0px 4px 4px white;
+}
