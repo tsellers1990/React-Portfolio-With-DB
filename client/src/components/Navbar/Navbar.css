@@ -18,12 +18,12 @@ nav.brand-logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.myFace {
+/* .myFace {
     position: relative !important;
     top: -120px;
     left: 105px;
     height:140px;
-}
+} */
 
 .carousel .carousel-item {
 width:300px !important;}
