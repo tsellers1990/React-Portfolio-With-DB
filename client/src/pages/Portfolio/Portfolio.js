@@ -1,18 +1,23 @@
 import React from 'react';
 import './Portfolio.css';
 
-import Wrapper from '../../components/Wrapper/Wrapper'
+import Wrapper from '../../components/Wrapper/Wrapper';
+import Brick from '../../components/ProjectBlock/ProjectBlock';
+
+
+var project3 = {
+    name: "Picture-It-Done",
+    image: "",
+    link: "",
+    description: "temp description"
+}
 
 class Portfolio extends React.Component {
     render() {
         return (
             <>
             <Wrapper>
-            <div className="proud1Block">
-                <h1>Picture-It-Done</h1>
-                <img className="projectPic" src={""} alt="Project One" />
-                <p>this is a shmedium description of the project</p>
-            </div>
+                <Brick data = {project3}/>
             </Wrapper>
             </>
         )
