@@ -7,6 +7,7 @@ import 'materialize-css/dist/css/materialize.min.css';
 // page routes
 import Home from "./pages/Home/homepage";
 import Contact from "./pages/Contact/contactme";
+import Portfolio from "./pages/Portfolio/Portfolio";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/Contact" component={Contact}/>
-        {/* <Route exact path="/" component={WhereverYouWant}/> */}
+        <Route exact path="/Portfolio" component={Portfolio}/>
       </Switch>
     </Router>
   );

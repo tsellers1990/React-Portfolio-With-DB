@@ -6,7 +6,9 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello Contact</h1>
+                <h1>This is the future home of the Contact page!</h1>
+                <p>If you're interested in contacting me, please reach out to tsellers1990@gmail.com. I'm saving this for last because it's my favorite part!</p>
+                <p></p>
             </div>
         )
     }

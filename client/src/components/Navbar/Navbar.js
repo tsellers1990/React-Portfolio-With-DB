@@ -12,8 +12,8 @@ const Navbar = (props) => {
 
     const navbarLinks = [
         <li><Link to={"/"} id="linkTags">Home</Link></li>,
-        <li><Link to={"/Contact"} id="linkTags">Contact</Link></li>,
-        <li><Link to={"/Portfolio"} id="linkTags">Portfolio</Link></li>
+        <li><Link to={"/Portfolio"} id="linkTags">Portfolio</Link></li>,
+        <li><Link to={"/Contact"} id="linkTags">Contact</Link></li>
         //<li><Link to={"/WhateverRoute"} id="linkTags">routeName</Link></li>
     ]
   
