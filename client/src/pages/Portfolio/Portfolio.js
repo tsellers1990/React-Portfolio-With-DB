@@ -12,13 +12,22 @@ var project3 = {
     link: "https://picture-it-done.herokuapp.com/",
     description: "temp description"
 }
+var item2 = {
+    name: "Picture-It-Done",
+    image: project3Image,
+    link: "https://picture-it-done.herokuapp.com/",
+    description: "temp description"  
+}
 
 class Portfolio extends React.Component {
     render() {
         return (
             <>
             <Wrapper>
-                <Brick data = {project3}/>
+                <Brick data = {project3} />
+                <Brick data= {item2} />
+                <Brick data= {item2} />
+                <Brick data= {item2} />
             </Wrapper>
             </>
         )

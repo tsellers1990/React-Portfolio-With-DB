@@ -7,8 +7,8 @@ function Brick({ data }){
     }
 
     return(
-        <div className="proud1Block">
-            <h1>{ data.name }</h1>
+        <div className="block">
+            <h1 className="text">{ data.name }</h1>
             <img 
             className="img" 
             style={{width:"20%", float: "right", marginLeft: "20px", height: "150px"}} 
@@ -17,7 +17,7 @@ function Brick({ data }){
             href="https://picture-it-done.herokuapp.com/"
             onClick={ imageClick }
             />
-            <p>{ data.description }</p>
+            <p className="text">{ data.description }</p>
         </div>
     )
 }

@@ -1,0 +1,17 @@
+.img {
+    position: relative !important;
+    margin-top: -125px;
+    margin-right: 25px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.block {
+    position: relative !important;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-style: solid;
+}
