@@ -3,11 +3,12 @@ import './Portfolio.css';
 
 import Wrapper from '../../components/Wrapper/Wrapper';
 import Brick from '../../components/ProjectBlock/ProjectBlock';
+import project3Image from './Images/PID.PNG'
 
 
 var project3 = {
     name: "Picture-It-Done",
-    image: "",
+    image: project3Image,
     link: "",
     description: "temp description"
 }

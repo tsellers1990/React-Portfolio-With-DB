@@ -1,10 +1,11 @@
 import React from 'react';
 
-export function Brick({ data }){
+function Brick({ data }){
+    // consol
     return(
         <div className="proud1Block">
             <h1>{ data.name }</h1>
-            <img className="projectPic" src={ data.image } alt="Project One" link={ data.link }/>
+            <img className="img" style={{width:"20%", float: "right", marginLeft: "20px", height: "150px"}} src={ data.image } alt={data.name} link={ data.link }/>
             <p>{ data.description }</p>
         </div>
     )
