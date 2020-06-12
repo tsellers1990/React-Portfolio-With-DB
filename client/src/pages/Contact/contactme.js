@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from '../../components/Form/Form'
-// import './Contact.css' after I've got styling to add
+import './Contact.css' // after I've got styling to add
 // idk if I'll need more imports, should be fine but if I do add them here!
 
 class Contact extends React.Component {

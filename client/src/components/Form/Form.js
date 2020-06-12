@@ -10,7 +10,7 @@ const Form = (props) => {
     }
 
     return (
-        <div className="container" style={{width: 45 + "%", marginTop: 200 + "px"}}>
+        <div className="container">
             <div className="row">
                 <form className="col s12">
                     <div className="row">
