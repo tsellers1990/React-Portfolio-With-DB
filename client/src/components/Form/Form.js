@@ -1,7 +1,14 @@
 import React from "react";
 
 
+
 const Form = (props) => {
+
+    function submitClick(event) {
+        event.preventDefault();
+        alert("This isnt functional YET, I'm currently working on it (6/12/2020 @ 5pm). If you need to contact me, PLEASE email me at tsellers1990@gmail.com")
+    }
+
     return (
         <div className="container" style={{width: 45 + "%", marginTop: 200 + "px"}}>
             <div className="row">
@@ -32,7 +39,7 @@ const Form = (props) => {
                                 />
                             </div>
                         </div>
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+                    <button onClick={submitClick} class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
                 </form>
             </div>
         </div>
