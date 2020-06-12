@@ -14,9 +14,13 @@
 .myBioText {
   position: relative !important;
   margin-left: 320px;
-  margin-right: 250px;
+  /* margin-right: 250px; */
+  /* margin-top: -260px; */
+  /* float: left; */
+}
+
+.bioBlock{
   margin-top: -360px;
-  float: left;
 }
 
 @media screen and (min-width: 1130px) and (max-width: 400px) {
