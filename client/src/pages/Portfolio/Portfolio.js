@@ -3,18 +3,34 @@ import './Portfolio.css';
 
 import Wrapper from '../../components/Wrapper/Wrapper';
 import Brick from '../../components/ProjectBlock/ProjectBlock';
-import project3Image from './Images/PID.PNG'
+import item1Image from './Images/PID.PNG'
+import item2Image from './Images/React-reading-list.png'
+import item3Image from './Images/PID.PNG'
+import item4Image from './Images/PID.PNG'
 
 
-var project3 = {
+
+var item1 = {
     name: "Picture-It-Done",
-    image: project3Image,
+    image: item1Image,
     link: "https://picture-it-done.herokuapp.com/",
     description: "temp description"
 }
 var item2 = {
     name: "Picture-It-Done",
-    image: project3Image,
+    image: item2Image,
+    link: "https://warm-crag-46689.herokuapp.com/",
+    description: "temp description"  
+}
+var item3 = {
+    name: "Picture-It-Done",
+    image: item3Image,
+    link: "https://picture-it-done.herokuapp.com/",
+    description: "temp description"  
+}
+var item4 = {
+    name: "Picture-It-Done",
+    image: item4Image,
     link: "https://picture-it-done.herokuapp.com/",
     description: "temp description"  
 }
@@ -24,10 +40,10 @@ class Portfolio extends React.Component {
         return (
             <>
             <Wrapper>
-                <Brick data = {project3} />
+                <Brick data = {item1} />
                 <Brick data= {item2} />
-                <Brick data= {item2} />
-                <Brick data= {item2} />
+                <Brick data= {item3} />
+                <Brick data= {item4} />
             </Wrapper>
             </>
         )
