@@ -5,10 +5,8 @@ import Wrapper from '../../components/Wrapper/Wrapper';
 import Brick from '../../components/ProjectBlock/ProjectBlock';
 import item1Image from './Images/PID.PNG'
 import item2Image from './Images/React-reading-list.png'
-import item3Image from './Images/PID.PNG'
+import item3Image from './Images/DynamicBudget.PNG'
 import item4Image from './Images/PID.PNG'
-
-
 
 var item1 = {
     name: "Picture-It-Done",
