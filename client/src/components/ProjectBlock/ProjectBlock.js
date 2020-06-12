@@ -2,8 +2,8 @@ import React from 'react';
 
 function Brick({ data }){
     function imageClick() {
-        // console.log("Click")
         window.open(data.link)
+        //add logic here to show what portfolio pieces get hit in the db
     }
 
     return(
