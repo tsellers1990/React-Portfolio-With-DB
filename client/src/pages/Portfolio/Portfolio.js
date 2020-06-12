@@ -39,9 +39,13 @@ class Portfolio extends React.Component {
             <>
             <Wrapper>
                 <Brick data = {item1} />
+                <p className="hint">Click on the image to view the live site</p>
                 <Brick data= {item2} />
+                <p className="hint">Click on the image to view the live site</p>
                 <Brick data= {item3} />
-                <Brick data= {item4} />
+                <p className="hint">Click on the image to view the live site</p>
+                {/* <Brick data= {item4} />
+                <p className="hint">Click on the image to view the live site</p> */}
             </Wrapper>
             </>
         )

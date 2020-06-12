@@ -15,3 +15,8 @@
     margin-right: 25px;
     border-style: solid;
 }
+
+.hint {
+    position: relative !important;
+    text-align: center;
+}
