@@ -23,7 +23,7 @@ var item2 = {
 var item3 = {
     name: "(Public) Dynamic Budget",
     image: item3Image,
-    link: "https://picture-it-done.herokuapp.com/",
+    link: "https://morning-river-71853.herokuapp.com/",
     description: "This does exactly what it sounds like, It's a dynamic budget that updates the app every time I add money or subtract it. Future features include the ability to create an account so that your private financial information isn't widely available to the public!"  
 }
 var item4 = {
