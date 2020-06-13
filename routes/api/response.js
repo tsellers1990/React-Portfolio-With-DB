@@ -3,7 +3,8 @@ const responseController = require("../../controllers/responseController");
 
 // Matches with "/api/response"
 router.route("/")
-  .get(responseController.findAll)
+  // console.log("@response.js")
+  // .get(responseController.findAll)
   .post(responseController.create);
 
 // Matches with "/api/response/:id"
