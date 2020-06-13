@@ -10,7 +10,7 @@ export function Input(props) {
 export function FormBtn(props) {
     return (
         <button {...props} /*disable="true" */ style={{ float: "left", marginBottom: 10, margin: 20 }} className="btn btn-success" >
-            Submit Job ➢
+            Submit➢
         </button>
     );
 }
