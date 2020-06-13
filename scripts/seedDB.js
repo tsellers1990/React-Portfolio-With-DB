@@ -10,8 +10,24 @@ mongoose.connect(
 
 const responseSeed = [
   {
-    who: "Tymothy Sellers",
-    what: "dbSeeding",
+    full_name: "Tymothy Sellers",
+    email:"tsellers1990@gmail.com",
+    phone:"970-314-3313",
+    description: "dbSeeding",
+    date: new Date(Date.now())
+  },
+  {
+    full_name: "Tymothy Sellers",
+    email:"tsellers1990@gmail.com",
+    phone:"970-314-3313",
+    description: "dbSeeding",
+    date: new Date(Date.now())
+  },
+  {
+    full_name: "Tymothy Sellers",
+    email:"tsellers1990@gmail.com",
+    phone:"970-314-3313",
+    description: "dbSeeding",
     date: new Date(Date.now())
   }
 ];
