@@ -12,16 +12,18 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <Router history={history}>
-      <header>
-        <Navbar />
-      </header>
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/Contact" component={Contact}/>
-        <Route exact path="/Portfolio" component={Portfolio}/>
-      </Switch>
-    </Router>
+    <div className="fillWindow">
+      <Router history={history}>
+        <header>
+          <Navbar />
+        </header>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/Contact" component={Contact}/>
+          <Route exact path="/Portfolio" component={Portfolio}/>
+        </Switch>
+      </Router>
+    </div>
   );
 }
 
