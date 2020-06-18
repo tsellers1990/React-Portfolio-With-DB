@@ -20,12 +20,12 @@ class Home extends React.Component {
             </div>
             <div>
                 <img className="myFace" src={picOfMe} alt="Tymothy Sellers" />
-                <div className="bioBlock myBioText">
-                    <p link={gitHubLink} onClick={imageClick}>Find me on GitHub at:  {gitHubLink}</p>
-                    <p link={linkedInLink} onClick={imageClick}>Find me on LinkedIn at:  {linkedInLink}</p>
-                    <p> Short Bio: I love to solve coding challenges and take pictures of cars.</p>
-                    <p>Experienced Photographer and Web Developer with a demonstrated history of working in the business supplies and equipment industry. Skilled in Operations Management, Management, Project Finance, Direct Sales, and Entrepreneurship. Full Stack / Flex Web Dev that enjoys writing code and solving problems.</p>
-                </div>
+            </div>
+            <div className="bioBlock myBioText">
+                <p link={gitHubLink} onClick={imageClick}>Find me on GitHub at:  {gitHubLink}</p>
+                <p link={linkedInLink} onClick={imageClick}>Find me on LinkedIn at:  {linkedInLink}</p>
+                <p> Short Bio: I love to solve coding challenges and take pictures of cars.</p>
+                <p>Experienced Photographer and Web Developer with a demonstrated history of working in the business supplies and equipment industry. Skilled in Operations Management, Management, Project Finance, Direct Sales, and Entrepreneurship. Full Stack / Flex Web Dev that enjoys writing code and solving problems.</p>
             </div>
             </>
         )

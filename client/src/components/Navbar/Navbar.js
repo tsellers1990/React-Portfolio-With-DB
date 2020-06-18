@@ -20,7 +20,7 @@ const Navbar = (props) => {
     return (
         <nav>
         {/* NavBar */}
-        <div className="nav-wrapper">
+        <div className="nav-wrapper" >
             <a href="#" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down" id="menuList">
                 {navbarLinks}

@@ -13,20 +13,19 @@
 
 .myBioText {
   position: relative !important;
-  margin-left: 320px;
-  /* margin-right: 250px; */
-  /* margin-top: -260px; */
+  margin-left: 5%;
+  margin-right: 5%;
   /* float: left; */
 }
 
 .bioBlock{
-  margin-top: -360px;
+  margin-top: -70px;
 }
 
-@media screen and (min-width: 1130px) and (max-width: 400px) {
+@media screen {
     .sideNav { display: none; }
   }
   
-@media screen and (min-width: 401px) and (max-width: 1130px) {
+@media screen {
     #menuList { display: none; } 
   }  
