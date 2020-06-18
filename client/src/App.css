@@ -1,6 +1,6 @@
   .fillWindow {
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     width: 100%;
     overflow: hidden;
