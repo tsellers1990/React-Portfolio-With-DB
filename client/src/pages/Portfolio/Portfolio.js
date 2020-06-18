@@ -6,7 +6,7 @@ import Brick from '../../components/ProjectBlock/ProjectBlock';
 import item1Image from './Images/PID.PNG'
 import item2Image from './Images/React-reading-list.png'
 import item3Image from './Images/DynamicBudget.PNG'
-import item4Image from './Images/PID.PNG'
+import item4Image from './Images/Stoic.PNG'
 
 var item1 = {
     name: "Picture-It-Done",
@@ -27,10 +27,10 @@ var item3 = {
     description: "This does exactly what it sounds like, It's a dynamic budget that updates the app every time I add money or subtract it. Future features include the ability to create an account so that your private financial information isn't widely available to the public!"  
 }
 var item4 = {
-    name: "Picture-It-Done",
+    name: "Stoic-Quotify",
     image: item4Image,
-    link: "https://picture-it-done.herokuapp.com/",
-    description: "temp description"  
+    link: "https://stoic-quotify.herokuapp.com/",
+    description: "Stoicism is a big part of my life, this MERN app allows you to submit a quote from a Stoic and have it show on the main page! (I go through this for my LinkedIn quotes)"  
 }
 
 class Portfolio extends React.Component {
@@ -44,8 +44,8 @@ class Portfolio extends React.Component {
                 <p className="hint">Click on the image to view the live site</p>
                 <Brick data= {item3} />
                 <p className="hint">Click on the image to view the live site</p>
-                {/* <Brick data= {item4} />
-                <p className="hint">Click on the image to view the live site</p> */}
+                <Brick data= {item4} />
+                <p className="hint">Click on the image to view the live site</p>
             </Wrapper>
             </>
         )
