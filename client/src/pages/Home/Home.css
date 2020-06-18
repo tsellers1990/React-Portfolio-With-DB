@@ -23,10 +23,11 @@
   margin-top: -70px;
 }
 
-@media screen {
+
+@media screen and (min-width: 1130px) and (max-width: 400px) {
     .sideNav { display: none; }
   }
   
-@media screen {
+@media screen and (min-width: 401px) and (max-width: 1130px) {
     #menuList { display: none; } 
   }  
