@@ -13,10 +13,10 @@
 }
 
 .myBioText {
-  position: relative !important;
-  margin-left: 5%;
+  /* position: relative !important; */
+  margin-left: 2.5%;
   margin-right: 5%;
-  /* float: left; */
+  float: left;
 }
 
 .bioBlock{
