@@ -31,13 +31,13 @@ const Contact = () => {
           <Input 
             onChange={handleInputChange}
             name="full_name"
-            placeholder="Please input your First and Last name"
+            placeholder="Name"
             style={{ marginTop: 10}}
           />
           <Input 
             onChange={handleInputChange}
             name="email"
-            placeholder="Please input your email"
+            placeholder="Email"
             style={{ marginTop: 10}}
           />
           <Input
@@ -49,7 +49,7 @@ const Contact = () => {
           <Input 
             onChange={handleInputChange}
             name="description"
-            placeholder="Please give a brief description of what you'd like to speak with me about"
+            placeholder="Brief Description"
             style={{ marginTop: 10}}
           />
           <FormBtn //this is the submit button
