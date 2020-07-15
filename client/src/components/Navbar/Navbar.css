@@ -1,11 +1,8 @@
 .nav-wrapper {
-    background-color: rgb(77, 77, 77);
-    /* text-align: left; */
+    background-color: rgb(55, 55, 55);
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 32px;
-    box-shadow:0px 10px 10px rgb(168, 168, 168);
-    
 }
 
 
@@ -18,27 +15,20 @@ nav.brand-logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* .myFace {
-    position: relative !important;
-    top: -120px;
-    left: 105px;
-    height:140px;
-} */
-
 .carousel .carousel-item {
 width:300px !important;}
 
 #slide-out {
-    background-color: rgba(77, 77, 77) !important;
+    background-color: rgb(55, 55, 55);
     height: 210px;
     width: 175px;
-    box-shadow: 2px 2px 4px black;
-    position: absolute;
+    box-shadow: 1px 1px 1px black;
+    /* position: absolute; */
 }
 
  #linkTags {
      font-size: 25px;
-     background-color: rgb(77, 77, 77);
+     background-color: rgb(55, 55, 55);
      color: whitesmoke;
  }
 
@@ -52,13 +42,11 @@ width:300px !important;}
      font-size: 15px;
      text-align: center;
      margin-top: 20px;
-
  }
 
  #sideLinks:hover {
     color: rgb(0, 251, 218);
     font-size: 20px;
-
  }
 
 #loginBtn {

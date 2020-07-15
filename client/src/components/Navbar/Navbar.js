@@ -14,19 +14,16 @@ const Navbar = (props) => {
         <li><Link to={"/"} id="linkTags">Home</Link></li>,
         <li><Link to={"/Portfolio"} id="linkTags">Portfolio</Link></li>,
         <li><Link to={"/Contact"} id="linkTags">Contact</Link></li>
-        //<li><Link to={"/WhateverRoute"} id="linkTags">routeName</Link></li>
     ]
   
     return (
         <nav>
-        {/* NavBar */}
         <div className="nav-wrapper" >
             <a href="#" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a>
-            <ul className="right hide-on-med-and-down" id="menuList">
+            {/* <ul className="right hide-on-med-and-down" id="menuList">
                 {navbarLinks}
-            </ul>
+            </ul> */}
         </div>
-        {/* hamburger menu */}
         <div className="sideContainer">
             <ul id="slide-out" className="sidenav">
                 {navbarLinks}

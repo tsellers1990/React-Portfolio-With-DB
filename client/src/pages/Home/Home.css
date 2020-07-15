@@ -1,28 +1,14 @@
+/* .wrapper {
+  background-color: rgb(77, 77, 77);
 
-.myFace {
-  position: relative !important;
-  margin-top: 125px;
-  top: -120px;
-  left: 45px;
-  height:240px;
-}
-
-.myNameText {
+} */
+.headerText {
   position: relative !important;
   left: 45px;
+  font-size: 300%;
+  text-align: center;
+  color: cornsilk;
 }
-
-.myBioText {
-  /* position: relative !important; */
-  margin-left: 2.5%;
-  margin-right: 5%;
-  float: left;
-}
-
-.bioBlock{
-  margin-top: -70px;
-}
-
 
 @media screen and (min-width: 1130px) and (max-width: 400px) {
     .sideNav { display: none; }
