@@ -1,36 +1,42 @@
-import React from 'react';
-import './Home.css';
-import picOfMe from "../../Images/myface.JPG"
-// idk if I'll need more imports, should be fine but if I do add them here!
-var gitHubLink="https://github.com/tsellers1990"
-var linkedInLink="https://www.linkedin.com/in/BrokeEntrepreneur/"
+import * as React from "react";
+import "./Home.css";
+import Typist from 'react-typist'
 
-function imageClick() {
-    alert("This functionality is still under construction :D check back soon to see it working!")
-    // window.open(this.link)
-    //add logic here to show what portfolio pieces get hit in the db
-}
+var gitHubLink = "https://github.com/tsellers1990";
+var linkedInLink = "https://www.linkedin.com/in/BrokeEntrepreneur/";
+const h1Text = "Hello, my name is Tymothy Sellers.";
+// let stringArray = [];
+// const onPage = [];
+
+// function coolLetterPrint(string) {
+//   stringArray = string.split(""); //splits the string into an array of the letters
+// 
+//   for (var i = 0; i < stringArray.length; i++) {
+    //   
+    // let currentLetter = stringArray[i]; //setting letter to a var for scale
+// 
+    // setTimeout(function () { //slows the loop down for dramatic... effect
+    //   onPage.push(currentLetter);
+    //   console.log(onPage);
+    // }, i * 500);
+//   }
+// }
+
+// coolLetterPrint(h1Text);
 
 class Home extends React.Component {
-    render() {
-        return (
-            <div>
-                <div className="wrapper">
-                    <div>
-                        <h1 className="headerText">Hello, my name is Tymothy Sellers.</h1>
-                    </div>
-                    {/* <div>
-                        <img className="myFace" src={picOfMe} alt="Tymothy Sellers" />
-                    </div> */}
-                    {/* <div className="bioBlock myBioText">
-                        <p link={gitHubLink} onClick={imageClick}>Find me on GitHub at:  {gitHubLink}</p>
-                        <p link={linkedInLink} onClick={imageClick}>Find me on LinkedIn at:  {linkedInLink}</p>
-                        <p> Short Bio: I love to solve coding challenges and take pictures of cars.</p>
-                        <p>Experienced Photographer and Web Developer with a demonstrated history of working in the business supplies and equipment industry. Skilled in Operations Management, Management, Project Finance, Direct Sales, and Entrepreneurship. Full Stack / Flex Web Dev that enjoys writing code and solving problems.</p>
-                    </div> */}
-                </div>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="wrapper">
+        <div>
+            <Typist>
+            <h1 className="headerText">{h1Text}</h1>
+            <Typist.Delay ms={500} />
+            <div className="bioText">THIS IS the BNIOT </div>
+            </Typist>  
+        </div>
+      </div>
+    );
+  }
 }
 export default Home;

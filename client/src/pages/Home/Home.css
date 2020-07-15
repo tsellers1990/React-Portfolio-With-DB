@@ -1,13 +1,14 @@
-/* .wrapper {
-  background-color: rgb(77, 77, 77);
-
-} */
 .headerText {
   position: relative !important;
-  left: 45px;
+  size: relative;
   font-size: 300%;
   text-align: center;
-  color: cornsilk;
+  color: whitesmoke;
+}
+.bioText {
+  text-align: center;
+  color: rgb(200, 200, 200);
+
 }
 
 @media screen and (min-width: 1130px) and (max-width: 400px) {
