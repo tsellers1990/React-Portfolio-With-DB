@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import API from "../../utils/API";
 import { Input, FormBtn } from '../../components/Form/Form';
+import history from '../../utils/history'
 import './Contact.css'; // after I've got styling to add
 // idk if I'll need more imports, should be fine but if I do add them here!
 
@@ -21,8 +22,10 @@ const Contact = () => {
                 phone: formObject.phone,
                 description: formObject.description,                
             })
+            .then(() => history.goBack())
             .catch(err => console.log(err));
         }
+
     };
   
     return (
