@@ -22,7 +22,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-ltText {
+.defaultText {
   text-align: center;
   position: relative !important;
   size: relative;
