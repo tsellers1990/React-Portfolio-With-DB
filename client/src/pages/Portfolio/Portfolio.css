@@ -8,13 +8,19 @@
 .text{
     margin-left: 20px;
 }
-
-.block {
+.defaultText {
+    text-align: center;
     position: relative !important;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+    size: relative;
+  }
+.block {
     border-style: solid;
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hint {

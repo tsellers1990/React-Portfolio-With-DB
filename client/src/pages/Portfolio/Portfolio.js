@@ -1,8 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-
-import Wrapper from '../../components/Wrapper/Wrapper';
-import Brick from '../../components/ProjectBlock/ProjectBlock';
+import Carousel from '../../components/Carousel/Carousel'
 import item1Image from './Images/PID.PNG'
 import item2Image from './Images/React-reading-list.png'
 import item3Image from './Images/DynamicBudget.PNG'
@@ -33,20 +31,23 @@ var item4 = {
     description: "Stoicism is a big part of my life, this MERN app allows you to submit a quote from a Stoic and have it show on the main page! (I go through this for my LinkedIn quotes)"  
 }
 
+function linkClick(data) {
+    window.open(data.link)
+    //add logic here to show what portfolio pieces get hit in the db
+}
+
 class Portfolio extends React.Component {
     render() {
         return (
             <>
-            <Wrapper>
-                <Brick data = {item1} />
-                <p className="hint">Click on the image to view the live site</p>
-                <Brick data= {item2} />
-                <p className="hint">Click on the image to view the live site</p>
-                <Brick data= {item3} />
-                <p className="hint">Click on the image to view the live site</p>
-                <Brick data= {item4} />
-                <p className="hint">Click on the image to view the live site</p>
-            </Wrapper>
+                <h1 className="defaultText">Currently under construction</h1>
+                <h2 className="defaultText">These are all live links to the live pages</h2>
+                <ul className="defaultText">
+                    <li onClick={() => linkClick(item1)}>{item1.link}</li>
+                    <li onClick={() => linkClick(item2)}>{item2.link}</li>
+                    <li onClick={() => linkClick(item3)}>{item3.link}</li>
+                    <li onClick={() => linkClick(item4)}>{item4.link}</li>
+                </ul>
             </>
         )
     }

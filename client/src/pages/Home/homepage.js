@@ -18,7 +18,7 @@ class Home extends React.Component {
         bioText : `I graduated in early June of 2020 from the DU Coding Bootcamp Program and am currently ready to start working as a junior dev at your company! Currently based out of ${currentlyLiving}, I am ready and willing to relocate on a moments notice! I'm particularly interested in working in one of the main US hubs such as Austin, the San Francisco Bay area, New York, and Denver.`,
         aboutMe : "Future nomad philanthropist/car guy/stoic philosopher",
         finalLine : "Reach Out to tsellers1990@gmail.com if you'd like to contact me!",
-        delayAmount : '500'
+        delayAmount : 500
     }
   render() {
     return (
