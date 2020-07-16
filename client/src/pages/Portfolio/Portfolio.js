@@ -79,15 +79,6 @@ class Portfolio extends React.Component {
                 <img src={item5Image} />
                 <p>GroupDrive</p>
             </div>
-            {/* <div className="carousel-items">
-                <img src={item2Image} />
-            </div>
-            <div className="carousel-items">
-                <img src={item3Image} />
-            </div>
-            <div className="carousel-items">
-                <img src={item4Image} />
-            </div> */}
             </Carousel>
         </div>
     </>
