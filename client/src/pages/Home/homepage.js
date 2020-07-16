@@ -8,14 +8,14 @@ const currentlyLiving = "Denver, Colorado";
 const messWithPeopleText = "Patience is a virtue"
 
 
-const buttonPress = () => {
+// const buttonPress = () => {
 
-};
+// };
 
 class Home extends React.Component {
     state= {
         h1Text : "Hello, my name is Tymothy Sellers.",
-        bioText : `I graduated in early June of 2020 from the DU Coding Bootcamp Program and am currently ready to start working as a junior dev at your company! Currently based out of ${currentlyLiving}, I am ready and willing to relocate on a moments notice! I'm particularly interested in working in one of the main US hubs such as Austin, the San Francisco Bay area, New York, and Denver.`,
+        bioText : `I graduated in early June of 2020 from the DU Coding Bootcamp Program and am ready to start working as a junior dev at your company! Currently based out of ${currentlyLiving}, I am ready and willing to relocate on a moments notice! I'm particularly interested in working in one of the main US hubs such as Austin, the San Francisco Bay area, New York, and Denver.`,
         aboutMe : "Future nomad philanthropist/car guy/stoic philosopher",
         finalLine : "Reach Out to tsellers1990@gmail.com if you'd like to contact me!",
         delayAmount : 500

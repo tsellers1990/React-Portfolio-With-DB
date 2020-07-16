@@ -7,7 +7,7 @@
 
 
 nav {
-    height: 130px !important;
+    height: 90px !important;
 }
 
 nav.brand-logo {
@@ -23,7 +23,7 @@ width:300px !important;}
     height: 210px;
     width: 175px;
     box-shadow: 1px 1px 1px black;
-    /* position: absolute; */
+    /* position: relative; */
 }
 
  #linkTags {
