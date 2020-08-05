@@ -62,6 +62,9 @@ const Contact = () => {
           </FormBtn>
         </form>
       </div>
+      // <div>
+
+      // </div>
     );
 }
 export default Contact;

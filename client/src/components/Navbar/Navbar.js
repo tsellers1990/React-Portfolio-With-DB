@@ -13,7 +13,8 @@ const Navbar = (props) => {
     const navbarLinks = [
         <li key="1"><Link to={"/"} id="linkTags">Home</Link></li>,
         <li key="2"><Link to={"/Portfolio"} id="linkTags">Portfolio</Link></li>,
-        <li key="3"><Link to={"/Contact"} id="linkTags">Contact</Link></li>
+        <li key="3"><Link to={"/Secret"} id="secretLink">Secret</Link></li>
+        // <li key="3"><Link to={"/Contact"} id="linkTags">Contact</Link></li>
     ]
   
     return (

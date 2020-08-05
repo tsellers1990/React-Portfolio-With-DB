@@ -32,6 +32,12 @@ width:300px !important;}
      color: whitesmoke;
  }
 
+ #secretLink {
+    font-size: 25px;
+    background-color: rgb(55, 55, 55);
+    color: rgb(65,65,65);
+ }
+
  #linkTags:hover {
      font-size: 27px;
      color: rgb(170, 170, 170);
