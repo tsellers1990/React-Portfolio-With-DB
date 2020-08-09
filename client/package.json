@@ -15,7 +15,8 @@
     "react-responsive-carousel": "^3.2.9",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^2.1.1",
-    "react-typist": "^2.0.5"
+    "react-typist": "^2.0.5",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
