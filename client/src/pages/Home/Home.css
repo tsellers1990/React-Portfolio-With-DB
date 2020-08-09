@@ -1,11 +1,13 @@
 .wrapper{
-  margin-top:2%;
+  margin-top:4%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .typistHead{
-  
+  padding: 1.5%;
 }
 .typistSeconds{
-  margin-top: 2%;
+  margin-top: 5%;
 }
 .headerText {
   margin-top: 0%;
