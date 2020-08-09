@@ -8,6 +8,7 @@ import item2Image from '../../components/Images/React-reading-list.png'
 import item3Image from '../../components/Images/DynamicBudget.PNG'
 import item4Image from '../../components/Images/Stoic.PNG'
 import item5Image from '../../components/Images/GroupDrive.png'
+import item6Image from '../../components/Images/Tetris.PNG'
 
 var item1 = {
     name: "Picture-It-Done",
@@ -39,7 +40,12 @@ var item5 = {
     link: "https://github.com/tsellers1990/groupdrive",
     description: "Stoicism is a big part of my life, this MERN app allows you to submit a quote from a Stoic and have it show on the main page! (I go through this for my LinkedIn quotes)"
 }
-
+var item6 = {
+    name: "Tetris",
+    image: item6Image,
+    link: "https://tys-tetris.herokuapp.com/",
+    description: "Stoicism is a big part of my life, this MERN app allows you to submit a quote from a Stoic and have it show on the main page! (I go through this for my LinkedIn quotes)"
+}
 
 function linkClick(data) {
   window.open(data);
@@ -47,12 +53,16 @@ function linkClick(data) {
 }
 
 class Portfolio extends React.Component {
-  render() {
+  render() { 
     return (
     <>
         <div className="reactContainer">
             <h3 className="reactHeader defaultText">React.js Projects</h3>
             <Carousel className="carousel">
+            <div className="carousel-items" onClick={() => linkClick(item6.link)}>
+                <img src={item6Image} />
+                <p>Tetris</p>
+            </div>            
             <div className="carousel-items" onClick={() => linkClick(item1.link)}>
                 <img src={item1Image} />
                 <p>Picture-It-Done</p>
@@ -61,14 +71,14 @@ class Portfolio extends React.Component {
                 <img src={item2Image} />
                 <p>React-Reading-List</p>
             </div>
-            <div className="carousel-items" onClick={() => linkClick(item3.link)}>
+            {/* <div className="carousel-items" onClick={() => linkClick(item3.link)}>
                 <img src={item3Image} />
                 <p>Online/Offline Budget</p>
             </div>
             <div className="carousel-items" onClick={() => linkClick(item4.link)}>
                 <img src={item4Image} />
                 <p>Stoic-Quotes</p>
-            </div>
+            </div> */}
             </Carousel>
         </div>
 
