@@ -9,7 +9,7 @@ const currentlyLiving = "Denver, Colorado";
 class Home extends React.Component {
     state= {
         h1Text : "Hello, my name is Tymothy Sellers.",
-        bioText : `I graduated in early June of 2020 from the DU Coding Bootcamp Program and am ready to start working as a junior dev at your company! Currently based out of ${currentlyLiving}, I am ready and willing to relocate on a moments notice! I'm particularly interested in working in one of the main US hubs such as Austin, the San Francisco Bay area, New York, and Denver.`,
+        bioText : `I graduated in early June of 2020 from the DU Coding Bootcamp Program and am excited to start working as a Full-Stack Develeoper at your company! I’m currently based out of ${currentlyLiving}! I'm particularly interested in working in one of the main US hubs such as Austin, the San Francisco Bay area, New York, and Denver. I love learning new things and am currently learning Ruby on Rails! Check out my portfolio, I’m SUPER proud of my work particularly on my react Tetris app! All of my apps get updated frequently, so check back frequently for new features`,
         aboutMe : "Future nomad philanthropist/car guy/stoic philosopher",
         finalLine : "Contact Me @: tsellers1990@gmail.com",
         delayAmount : 500
