@@ -1,6 +1,12 @@
-/* .wrapper{
-  height:110%
-} */
+.wrapper{
+  margin-top:2%;
+}
+.typistHead{
+  
+}
+.typistSeconds{
+  margin-top: 2%;
+}
 .headerText {
   margin-top: 0%;
   font-size: 300%;

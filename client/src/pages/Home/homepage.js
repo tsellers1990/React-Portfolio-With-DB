@@ -18,14 +18,14 @@ class Home extends React.Component {
     return (
       <div className="wrapper">
         <div>
-            <Typist >
+            <Typist className="typistHead">
             <h1 className="headerText defaultText">{this.state.h1Text}</h1>
 
             <Typist.Delay ms={this.state.delayAmount} />
-            <div className="bioText defaultText" >{this.state.bioText}</div>
+            <div className="bioText defaultText typistSeconds" >{this.state.bioText}</div>
 
             <Typist.Delay ms={this.state.delayAmount} />
-            <div className="finalText defaultText" >{this.state.finalLine}</div>
+            <div className="finalText defaultText typistSeconds" >{this.state.finalLine}</div>
             </Typist>  
         </div>
         {/* <div className="nobodyCaresButton">
