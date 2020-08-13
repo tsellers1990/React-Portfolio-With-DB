@@ -51,14 +51,10 @@ var item5 = {
     // description: "Stoicism is a big part of my life, this MERN app allows you to submit a quote from a Stoic and have it show on the main page! (I go through this for my LinkedIn quotes)"
 }
 
-function githubGetter(data) {
-    window.open(data)
-    //This isnt working on heroku for whatever reason
-}
-
 function linkClick(data, handoff) {
-    githubGetter(handoff)
-    window.open(data);
+    // githubGetter(handoff)
+    window.open(data)
+    window.open(handoff)
   //add logic here to show what portfolio pieces get hit in the db
 }
 
