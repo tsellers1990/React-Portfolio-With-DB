@@ -53,6 +53,7 @@ var item5 = {
 
 function githubGetter(data) {
     window.open(data)
+    //This isnt working on heroku for whatever reason
 }
 
 function linkClick(data, handoff) {
