@@ -57,8 +57,8 @@ function githubGetter(data) {
 }
 
 function linkClick(data, handoff) {
-    window.open(data);
     githubGetter(handoff)
+    window.open(data);
   //add logic here to show what portfolio pieces get hit in the db
 }
 
