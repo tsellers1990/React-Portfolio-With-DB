@@ -7,7 +7,9 @@ class Secret extends React.Component {
     render() {
         return(
             <>
-                <Tetris />
+                <div className="wrapper">
+                    <Tetris />
+                </div>
             </>
         )
     }

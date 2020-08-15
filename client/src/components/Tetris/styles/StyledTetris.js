@@ -4,7 +4,7 @@ export const StyledTetrisWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  overflow: hidden;
+
 `;
 
 export const StyledTetris = styled.div`
@@ -15,6 +15,7 @@ export const StyledTetris = styled.div`
   padding-top: 10px ;
   margin: 0 auto;
   max-width: 900px;
+  margin-top: 20px;
 
   aside {
     width: 100%;

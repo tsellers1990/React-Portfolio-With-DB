@@ -75,7 +75,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="carousel-items" onClick={() => linkClick(item4.link, item4.github)}>
                 <img src={item4} />
-                <p>React-Reading-List</p>
+                <p>Stoic-Quotify</p>
             </div>
             {/* <div className="carousel-items" onClick={() => linkClick(item3.link)}>
                 <img src={item3Image} />
