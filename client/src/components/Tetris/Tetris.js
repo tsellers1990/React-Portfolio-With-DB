@@ -15,6 +15,7 @@ import { useGameStatus } from '../../hooks/useGameStatus';
 import Stage from "./Stage";
 import Display from "./Display";
 import StartButton from "./StartButton";
+import {ScoreBoard} from "./Scoreboard";
 
 const Tetris = () => {
   const [dropTime, setDropTime] = useState(null);
@@ -116,6 +117,13 @@ const Tetris = () => {
             </div>
           )}
           <StartButton callback={startGame} />
+        </aside>
+        <aside>
+            <div>
+              <ScoreBoard text={`High Scores:`}>
+                {/* import scores from mongodb here */}
+              </ScoreBoard>
+            </div>
         </aside>
       </StyledTetris>
     </StyledTetrisWrapper>
