@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Container, List, ListItem, Col, Row, Brick } from '../../components/Tetris/HighScoreBlock';
+import API from '../../utils/API';
+import './styles/StyledHighScore';
 
 import { createStage, checkCollision } from "../../gameHelpers";
 
@@ -24,6 +27,19 @@ const Tetris = () => {
   const [player, updatePlayerPos, resetPlayer, playerRotate] = usePlayer();
   const [stage, setStage, rowsCleared] = useStage(player, resetPlayer);
   const [score, setScore, rows, setRows, level, setLevel] = useGameStatus(rowsCleared)
+  const [scores, setScores] = useState([])
+
+  useEffect(() => {
+    loadScores()
+  }, [])
+
+  function loadScores() {
+    API.getScores()
+      .then(res =>
+        setScores(res.data)
+      )
+      .catch(err => console.log(err));
+  }
 
   console.log("re-render");
 
@@ -121,7 +137,23 @@ const Tetris = () => {
         <aside>
             <div>
               <ScoreBoard text={`High Scores:`}>
-                {/* import scores from mongodb here */}
+                <Row id="scoresView">
+                  <Col size="md-6 sm-12">
+                    {scores.length ? (
+                      <List>
+                        {scores.map(score => {
+                          return(
+                            <ListItem key={score._id}>
+                              <Brick data={score} />
+                            </ListItem>
+                          )
+                        })}
+                      </List>
+                    ) : (
+                      <h3>No Scores Yet</h3>
+                    )}
+                  </Col>
+                </Row>
               </ScoreBoard>
             </div>
         </aside>
