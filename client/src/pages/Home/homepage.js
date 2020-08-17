@@ -17,7 +17,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <div>
+        <div className="text-wrapper">
             <Typist className="typistHead">
             <h1 className="headerText defaultText">{this.state.h1Text}</h1>
 

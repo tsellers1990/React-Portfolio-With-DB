@@ -136,7 +136,7 @@ const Tetris = () => {
         </aside>
         <aside>
             <div>
-              <ScoreBoard text={`High Scores:`}>
+              {/* <ScoreBoard text={`High Scores:`}>
                 <Row id="scoresView">
                   <Col size="md-6 sm-12">
                     {scores.length ? (
@@ -154,7 +154,7 @@ const Tetris = () => {
                     )}
                   </Col>
                 </Row>
-              </ScoreBoard>
+              </ScoreBoard> */}
             </div>
         </aside>
       </StyledTetris>
