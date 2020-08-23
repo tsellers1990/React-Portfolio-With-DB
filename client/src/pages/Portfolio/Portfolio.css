@@ -1,0 +1,51 @@
+.img {
+    /* position: relative !important; */
+    margin-top: -125px;
+    margin-right: 25px;
+    /* padding: 1%; */
+}
+
+.text{
+    margin-left: 20px;
+}
+.defaultText {
+    text-align: center;
+    position: relative !important;
+    size: relative;
+  }
+.block {
+    border-style: solid;
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.reactContainer{
+    margin: 0;
+    position: absolute;
+    top:50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+}
+.reactNativeContainer{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+}
+.carousel {
+    /* position: absolute; */
+    /* width: 10%; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    height: 200px
+}
+.hint {
+    position: relative !important;
+    text-align: center;
+}
