@@ -1,6 +1,8 @@
 import * as React from "react";
 import "./Home.css";
 import Typist from 'react-typist'
+import {ShakingImage} from '../../components/ShakingImages/ShakingImage'
+import Image from '../../components/Images/PID.PNG'
 
 var gitHubLink = "https://github.com/tsellers1990";
 var linkedInLink = "https://www.linkedin.com/in/BrokeEntrepreneur/";
@@ -17,7 +19,11 @@ class Home extends React.Component {
   render() {
     return (
       <div className="wrapper">
+      
         <div className="text-wrapper">
+
+            <ShakingImage alt="test" src= {Image}/>
+
             <Typist className="typistHead">
             <h1 className="headerText defaultText">{this.state.h1Text}</h1>
 
@@ -27,6 +33,7 @@ class Home extends React.Component {
             <Typist.Delay ms={this.state.delayAmount} />
             <div className="finalText defaultText typistSeconds" >{this.state.finalLine}</div>
             </Typist>  
+
         </div>
         {/* <div className="nobodyCaresButton">
             <button onClick={() => buttonPress()}>This button will do something someday</button>
