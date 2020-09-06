@@ -22,7 +22,7 @@ class Home extends React.Component {
       
         <div className="text-wrapper">
 
-            <ShakingImage alt="test" src= {Image}/>
+            {/* <ShakingImage alt="test" src= {Image}/> */}
 
             <Typist className="typistHead">
             <h1 className="headerText defaultText">{this.state.h1Text}</h1>
