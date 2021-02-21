@@ -1,0 +1,9 @@
+.wrapper {
+    height: 70%;
+    overflow: scroll;
+    margin-bottom: 10%
+}
+
+.document{
+    background-color:white
+}

@@ -10,6 +10,7 @@ import Home from "./pages/Home/homepage";
 import Contact from "./pages/Contact/contactme";
 import Secret from "./pages/Secret/Secret";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import QuotesDaily from "./pages/Privacy/privacy.js";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/Contact" component={Contact}/>
           <Route exact path="/Secret" component={Secret}/>          
           <Route exact path="/Portfolio" component={Portfolio}/>
+          <Route exact path="/Privacy/QuotesDaily" component={QuotesDaily}/>
         </Switch>
       </Router>
     </div>
