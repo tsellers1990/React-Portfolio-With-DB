@@ -13,7 +13,11 @@
     "react-dom": "^16.6.3",
     "react-github-corner": "^2.3.0",
     "react-moment": "^0.9.7",
+<<<<<<< HEAD
     "react-responsive-carousel": "^3.2.9",  
+=======
+    "react-responsive-carousel": "^3.2.9",
+>>>>>>> e4221d363ba3f2047b26d8df1481854c5e92d0d9
     "react-router-dom": "^5.1.2",
     "react-scripts": "^2.1.1",
     "react-typist": "^2.0.5",
