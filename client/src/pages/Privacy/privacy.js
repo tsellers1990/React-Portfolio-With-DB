@@ -4,7 +4,7 @@ import "./Privacy.css"
 
 var Policy = () => {
   return(
-    <div className="wrapper">
+    <div className="privwrapper">
       <div dangerouslySetInnerHTML={{ __html: PrivacyPolicy }} className="document"></div>
     </div>
   )
